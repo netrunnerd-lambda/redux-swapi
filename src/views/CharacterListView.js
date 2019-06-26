@@ -14,7 +14,7 @@ class CharacterListView extends Component {
 
   render() {
     const { characters, error, fetching,
-            next, population, total } = this.props;
+            population, total } = this.props;
 
     return (
       <div className="CharactersList_wrapper">

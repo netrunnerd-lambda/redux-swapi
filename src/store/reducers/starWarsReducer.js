@@ -5,7 +5,7 @@ const initialState = {
   error: null,
   fetching: false,
   next: 'https://swapi.co/api/people',
-  population: 0,
+  population: null,
   total: 0
 };
 
